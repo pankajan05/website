@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 class="text-center">Registration Form</h1>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<div class="container">
+<div>
+<h6> Please fill this form for the registration</h6>
+</div>
+
+<table class="table">
+<tr>
+<th scope="row">1.</th>
+<td>Name</td>
+<td><input type="text" name="username" class="form-control"></td>
+</tr>
+<tr>
+<th scope="row">2.</th>
+<td>Password</td>
+<td><input type="text" name="password" class="form-control"></td>
+</tr>
+<tr></tr>
+<tr>
+<th scope="row">3.</th>
+<td rows>Gender</td>
+<td><input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+</td>
+<tr>
+<th scope="row">4.</th>
+<td>How do you heard about us</td>
+<td><select name="hear">
+  <option value="volvo">Friend</option>
+  <option value="saab">Website</option>
+  <option value="fiat">Newspaper</option>
+  <option value="audi">E-mail</option>
+</select></td>
+</tr>
+
+<tr>
+<th scope="row">5.</th>
+<td>Do you like to subscribe</td>
+<td><input type="checkbox" name="subscribe">subscribe</td>
+</tr><tr></tr>
+<tr>
+<th></th>
+<td></td>
+<td><button class="btn btn-primary">submit</button></td>
+</tr>
+</table>
+</div>
+
+<hr>
+  <div class="row">
+    <div class="text-center col-md-6 col-md-offset-3">
+      <h4>Footer </h4>
+      <p>Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="https://www.linkedin.com/in/pankajan-jaffa/" >Pankajan</a></p>
+    </div>
+  </div>
+  <hr>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
